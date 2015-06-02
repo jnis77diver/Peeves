@@ -4,6 +4,9 @@
             <header>
                 <h2 class="post-title" itemprop="name headline"><a href="{{url}}" class="post-link">{{{title}}}</a></h2>
             </header>
+
+
+
             <section class="post-text" itemprop="articleBody text">
                 <p>{{excerpt}}&hellip;</p>
             </section>
@@ -15,8 +18,8 @@
                         <img class="author-image" src="{{image}}" alt="{{name}}">
                         {{/if}}
                         <span class="author-info">
-                            <span rel="author" itemprop="url name">{{name}}</span> 
-                            {{/author}} 
+                            <span rel="author" itemprop="url name">{{name}}</span>
+                            {{/author}}
                             <span class="hide-on-mobile">{{tags separator=", " prefix="in "}}</span>
                         </span>
                     </li>
