@@ -19,8 +19,10 @@
     <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1, user-scalable=no">
 
     <link rel="shortcut icon" href="{{asset "favicon.ico"}}">
+    <!--Code styling using Prism.js-->
+    <link rel="stylesheet" type="text/css" href="{{asset "css/prism.css"}}" />
 
-    <!-- Google Authorship and Publisher Markup -->
+  <!-- Google Authorship and Publisher Markup -->
     {{> google-authorship}}
 
     {{! Styles'n'Scripts }}
@@ -76,7 +78,7 @@
     <script src="{{asset "js/peeves.js"}}"></script>
 
     <!--For styling and code lines of inline code-->
-    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?lang=js"></script>
+    <script type="text/javascript" src="{{asset "js/prism.js"}}"></script>
 
     {{> google-analytics}}
 
